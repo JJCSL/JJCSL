@@ -3,12 +3,11 @@ function login() {
     var ps=document.forms["myform"]["password"].value;
 
     if(em=="jerseyjiggs20@gmail.com" && ps=="jjcsl20"){
-        /*alert("login successful");*/
+        alert("login successful");
         return true;
-        /*document.getElementById("hiddenmessage").style.display = 'block';*/
     }
     else{
-        /*alert("incorrect email or password")*/
+        alert("incorrect email or password")
         return false;
     }
 }
