@@ -3,7 +3,7 @@ function login() {
     var ps=document.forms["myform"]["password"].value;
 
     if(em=="jerseyjiggs20@gmail.com" && ps=="jjcsl20"){
-        alert("login successful");
+        //alert("login successful");
         return true;
     }
     else{
